@@ -1,0 +1,33 @@
+.container {
+  font-size: 14px;
+}
+.container .header {
+  font-size: 18px;
+}
+.container .shop-list {
+  list-style: none;
+  margin-left: -15px;
+}
+.container .shop-list li.item {
+  color: green;
+}
+.container .shop-list .item {
+  /* Q1. Explain why does this color not works, and how to fix make it work on 1st list */
+  color: blue;
+
+  /* 作答區 */
+  /* 這是因為 style 的權重沒有像上面的 .container .shop-list li.item 來的高，所以需要增加權重，比較好的做法是以下的方式來寫，但建議不要使用 !important，使用 !important 在維護上會更不好維護
+  .container .content .shop-list .item {
+    color: blue;
+  }
+  */
+}
+
+/* Q2. Write styling make every other line give background color to next one */
+
+/* 作答區 */
+/*
+.container .content .shop-list li:nth-child(even) {
+  background-color: #545454; （題目沒有指定顏色，所以使用灰色）
+}
+*/
