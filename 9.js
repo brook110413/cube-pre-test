@@ -32,7 +32,7 @@ function GrandchildComponent({ name, age }) {
 /* 作答區 */
 /*
 
-這部分的程式碼，有 props drilling 的問題，這部分可以透過 context API 來解決，這樣就不需要每次都傳遞 props。
+這部分的程式碼，有 props drilling 的問題，這部分可以透過 context API 來解決，這樣就不需要將 props 一直向下往子元件傳遞。
 
 修改後的程式碼如下：
 
