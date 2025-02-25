@@ -22,7 +22,7 @@ export default function Page() {
 /* 作答區 */
 /*
 
-因為 SearchInput 是個子元件，所以使用 forwardRef 來轉發父元件的 ref，以達成聚焦輸入框的效果。
+因為 SearchInput 是個子元件，所以使用 forwardRef 來轉發父元件的 ref，以達成 focus 輸入框的效果。
 
 import { useRef, forwardRef } from "react";
 
